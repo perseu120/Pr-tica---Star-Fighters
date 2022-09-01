@@ -1,6 +1,6 @@
 import cors from "cors";
 import express from "express";
-import starFighters from "./router/router.js";
+import starFighters from "./router/router";
 
 const app = express();
 app.use(cors());
